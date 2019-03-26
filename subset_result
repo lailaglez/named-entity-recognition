@@ -1,0 +1,441 @@
+0
+1
+2
+[CRF(algorithm='lbfgs', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=None,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='l2sgd', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=0.1,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='ap', all_possible_states=None, all_possible_transitions=True,
+  averaging=None, c=None, c1=None, c2=None, calibration_candidates=None,
+  calibration_eta=None, calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='pa', all_possible_states=None, all_possible_transitions=True,
+  averaging=None, c=None, c1=None, c2=None, calibration_candidates=None,
+  calibration_eta=None, calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False)]
+[]
+Precision: 0.970350486821
+Recall: 0.973850324158
+F1: 0.971674976946
+Precision (only entities): 0.575920551645
+Recall (only entities): 0.48557968862
+F1 (only entities): 0.520441023686
+['B-LOCATION', 'B-MISC', 'B-ORG', 'B-PERSON', 'I-LOCATION', 'I-MISC', 'I-ORG', 'I-PERSON', 'O']
+Precision by class: [ 0.64632044  0.40843179  0.50701185  0.63544634  0.4991342   0.39240102
+  0.37074303  0.68514035  0.98675278]
+Mean: 0.570153534302
+Recall by class: [ 0.61323011  0.24065895  0.38599412  0.61859874  0.32030632  0.16129032
+  0.22262231  0.59871176  0.99415208]
+Mean: 0.461729411876
+F1 by class: [ 0.62897556  0.30084598  0.43753793  0.62652937  0.38251935  0.22659092
+  0.27784484  0.63889864  0.99043852]
+Mean: 0.501131233376
+
+0
+1
+2
+[CRF(algorithm='lbfgs', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=None,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='l2sgd', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=0.1,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='ap', all_possible_states=None, all_possible_transitions=True,
+  averaging=None, c=None, c1=None, c2=None, calibration_candidates=None,
+  calibration_eta=None, calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False)]
+[]
+Precision: 0.969190064669
+Recall: 0.973953419272
+F1: 0.970810706574
+Precision (only entities): 0.615376185264
+Recall (only entities): 0.470730452819
+F1 (only entities): 0.525443739884
+['B-LOCATION', 'B-MISC', 'B-ORG', 'B-PERSON', 'I-LOCATION', 'I-MISC', 'I-ORG', 'I-PERSON', 'O']
+Precision by class: [ 0.68958135  0.50049386  0.50148164  0.68255565  0.5179041   0.4002331
+  0.34913673  0.74850309  0.98451283]
+Mean: 0.59715581433
+Recall by class: [ 0.59646374  0.23325949  0.3275994   0.62792753  0.29280109  0.1287181
+  0.2164504   0.58952465  0.995751  ]
+Mean: 0.445388376515
+F1 by class: [ 0.63938227  0.31751934  0.39412249  0.65386682  0.37386686  0.1943345
+  0.26702443  0.65761763  0.99009999]
+Mean: 0.498648258956
+
+0
+1
+2
+[CRF(algorithm='lbfgs', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=None,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='l2sgd', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=0.1,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='ap', all_possible_states=None, all_possible_transitions=True,
+  averaging=None, c=None, c1=None, c2=None, calibration_candidates=None,
+  calibration_eta=None, calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False)]
+[PassiveAggressiveClassifier(C=1.0, class_weight=None, fit_intercept=True,
+              loss='hinge', n_iter=5, n_jobs=1, random_state=None,
+              shuffle=True, verbose=0, warm_start=False)]
+Precision: 0.970921475103
+Recall: 0.97489906971
+F1: 0.972167428724
+Precision (only entities): 0.616133735012
+Recall (only entities): 0.489520692196
+F1 (only entities): 0.535134553637
+['B-LOCATION', 'B-MISC', 'B-ORG', 'B-PERSON', 'I-LOCATION', 'I-MISC', 'I-ORG', 'I-PERSON', 'O']
+Precision by class: [ 0.67257638  0.44860459  0.59954167  0.67006309  0.439389    0.51200077
+  0.51875902  0.70689846  0.9858212 ]
+Mean: 0.617072685447
+Recall by class: [ 0.6250774   0.24544353  0.37008382  0.64679982  0.27858217  0.22035125
+  0.17279981  0.58848853  0.99532356]
+Mean: 0.460327766638
+F1 by class: [ 0.64712585  0.31460665  0.45465434  0.65768582  0.34097098  0.30562965
+  0.25600382  0.64164884  0.99054881]
+Mean: 0.512097194637
+
+0
+1
+2
+[CRF(algorithm='lbfgs', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=None,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='l2sgd', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=0.1,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False)]
+[Perceptron(alpha=0.0001, class_weight=None, eta0=1.0, fit_intercept=True,
+      n_iter=5, n_jobs=1, penalty=None, random_state=0, shuffle=True,
+      verbose=0, warm_start=False), PassiveAggressiveClassifier(C=1.0, class_weight=None, fit_intercept=True,
+              loss='hinge', n_iter=5, n_jobs=1, random_state=None,
+              shuffle=True, verbose=0, warm_start=False), SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', n_iter=5, n_jobs=1,
+       penalty='l2', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False)]
+Precision: 0.969422080944
+Recall: 0.974422824088
+F1: 0.970577294997
+Precision (only entities): 0.641063290579
+Recall (only entities): 0.447351822656
+F1 (only entities): 0.511832701905
+['B-LOCATION', 'B-MISC', 'B-ORG', 'B-PERSON', 'I-LOCATION', 'I-MISC', 'I-ORG', 'I-PERSON', 'O']
+Precision by class: [ 0.71249399  0.49958709  0.61240651  0.66942122  0.52823402  0.48343434
+  0.52380952  0.74934979  0.98299186]
+Mean: 0.640192038093
+Recall by class: [ 0.54640433  0.16811238  0.31436913  0.62194824  0.26513168  0.14818178
+  0.16077441  0.59265437  0.99629331]
+Mean: 0.423763292488
+F1 by class: [ 0.61710374  0.25027309  0.41472248  0.64257153  0.34840922  0.22660819
+  0.24248736  0.66131867  0.98959675]
+Mean: 0.488121226483
+
+0
+1
+2
+[CRF(algorithm='lbfgs', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=None,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='l2sgd', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=0.1,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='ap', all_possible_states=None, all_possible_transitions=True,
+  averaging=None, c=None, c1=None, c2=None, calibration_candidates=None,
+  calibration_eta=None, calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False)]
+[Perceptron(alpha=0.0001, class_weight=None, eta0=1.0, fit_intercept=True,
+      n_iter=5, n_jobs=1, penalty=None, random_state=0, shuffle=True,
+      verbose=0, warm_start=False), PassiveAggressiveClassifier(C=1.0, class_weight=None, fit_intercept=True,
+              loss='hinge', n_iter=5, n_jobs=1, random_state=None,
+              shuffle=True, verbose=0, warm_start=False)]
+Precision: 0.970644890163
+Recall: 0.974745817478
+F1: 0.972152232816
+Precision (only entities): 0.591689913315
+Recall (only entities): 0.470533821583
+F1 (only entities): 0.517761399379
+['B-LOCATION', 'B-MISC', 'B-ORG', 'B-PERSON', 'I-LOCATION', 'I-MISC', 'I-ORG', 'I-PERSON', 'O']
+Precision by class: [ 0.65049334  0.44349962  0.53019753  0.64874952  0.45082126  0.4576758
+  0.43445144  0.70799666  0.98599395]
+Mean: 0.589986569705
+Recall by class: [ 0.57783784  0.23003738  0.35044851  0.59773671  0.27962963  0.18352321
+  0.22272566  0.61320964  0.9951889 ]
+Mean: 0.450037498017
+F1 by class: [ 0.61142331  0.30219727  0.42195576  0.62133409  0.34453941  0.26114122
+  0.29315561  0.65707932  0.99056955]
+Mean: 0.500377283949
+
+0
+1
+2
+[]
+[Perceptron(alpha=0.0001, class_weight=None, eta0=1.0, fit_intercept=True,
+      n_iter=5, n_jobs=1, penalty=None, random_state=0, shuffle=True,
+      verbose=0, warm_start=False), PassiveAggressiveClassifier(C=1.0, class_weight=None, fit_intercept=True,
+              loss='hinge', n_iter=5, n_jobs=1, random_state=None,
+              shuffle=True, verbose=0, warm_start=False), SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', n_iter=5, n_jobs=1,
+       penalty='l2', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False)]
+Precision: 0.920166653553
+Recall: 0.959253127213
+F1: 0.939303424471
+Precision (only entities): 0.0
+Recall (only entities): 0.0
+F1 (only entities): 0.0
+['B-LOCATION', 'B-MISC', 'B-ORG', 'B-PERSON', 'I-LOCATION', 'I-MISC', 'I-ORG', 'I-PERSON', 'O']
+Precision by class: [ 0.          0.          0.          0.          0.          0.          0.
+  0.          0.95925313]
+Mean: 0.106583680801
+Recall by class: [ 0.  0.  0.  0.  0.  0.  0.  0.  1.]
+Mean: 0.111111111111
+F1 by class: [ 0.          0.          0.          0.          0.          0.          0.
+  0.          0.97920283]
+Mean: 0.108800314439
+
+0
+1
+2
+[CRF(algorithm='lbfgs', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=None,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='l2sgd', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=0.1,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='ap', all_possible_states=None, all_possible_transitions=True,
+  averaging=None, c=None, c1=None, c2=None, calibration_candidates=None,
+  calibration_eta=None, calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='pa', all_possible_states=None, all_possible_transitions=True,
+  averaging=None, c=None, c1=None, c2=None, calibration_candidates=None,
+  calibration_eta=None, calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False)]
+[Perceptron(alpha=0.0001, class_weight=None, eta0=1.0, fit_intercept=True,
+      n_iter=5, n_jobs=1, penalty=None, random_state=0, shuffle=True,
+      verbose=0, warm_start=False), PassiveAggressiveClassifier(C=1.0, class_weight=None, fit_intercept=True,
+              loss='hinge', n_iter=5, n_jobs=1, random_state=None,
+              shuffle=True, verbose=0, warm_start=False), SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', n_iter=5, n_jobs=1,
+       penalty='l2', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False)]
+Precision: 0.971661752456
+Recall: 0.974772200825
+F1: 0.97282758294
+Precision (only entities): 0.587519851332
+Recall (only entities): 0.510690155595
+F1 (only entities): 0.539602160298
+['B-LOCATION', 'B-MISC', 'B-ORG', 'B-PERSON', 'I-LOCATION', 'I-MISC', 'I-ORG', 'I-PERSON', 'O']
+Precision by class: [ 0.66399203  0.43666897  0.4607651   0.64671197  0.47804744  0.39488536
+  0.37321765  0.73362791  0.98765386]
+Mean: 0.575063366016
+Recall by class: [ 0.61259969  0.26433042  0.33906927  0.68062751  0.32581688  0.16203101
+  0.26495726  0.64575272  0.99407238]
+Mean: 0.47658412679
+F1 by class: [ 0.63676385  0.32916433  0.39053004  0.66281132  0.38366807  0.22657142
+  0.30389237  0.68621534  0.99085242]
+Mean: 0.512274351127
+
+0
+1
+2
+[CRF(algorithm='lbfgs', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=None,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='l2sgd', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=0.1,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='ap', all_possible_states=None, all_possible_transitions=True,
+  averaging=None, c=None, c1=None, c2=None, calibration_candidates=None,
+  calibration_eta=None, calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False)]
+[Perceptron(alpha=0.0001, class_weight=None, eta0=1.0, fit_intercept=True,
+      n_iter=5, n_jobs=1, penalty=None, random_state=0, shuffle=True,
+      verbose=0, warm_start=False), PassiveAggressiveClassifier(C=1.0, class_weight=None, fit_intercept=True,
+              loss='hinge', n_iter=5, n_jobs=1, random_state=None,
+              shuffle=True, verbose=0, warm_start=False)]
+Precision: 0.971431072835
+Recall: 0.975621777217
+F1: 0.972761447076
+Precision (only entities): 0.614007150933
+Recall (only entities): 0.482054137736
+F1 (only entities): 0.529198382242
+['B-LOCATION', 'B-MISC', 'B-ORG', 'B-PERSON', 'I-LOCATION', 'I-MISC', 'I-ORG', 'I-PERSON', 'O']
+Precision by class: [ 0.66081435  0.44362916  0.56352907  0.65654571  0.51403554  0.54800705
+  0.48303303  0.73484637  0.98609941]
+Mean: 0.62117107787
+Recall by class: [ 0.61367584  0.20185169  0.33741288  0.63154155  0.2779304   0.19726297
+  0.21926962  0.63804181  0.99585428]
+Mean: 0.456982338156
+F1 by class: [ 0.63606893  0.27708738  0.4220041   0.64359568  0.360214    0.28852686
+  0.29958326  0.68248256  0.99095254]
+Mean: 0.511168369608
+
+0
+1
+2
+[CRF(algorithm='lbfgs', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=None,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='l2sgd', all_possible_states=None,
+  all_possible_transitions=True, averaging=None, c=None, c1=None, c2=0.1,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='ap', all_possible_states=None, all_possible_transitions=True,
+  averaging=None, c=None, c1=None, c2=None, calibration_candidates=None,
+  calibration_eta=None, calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False), CRF(algorithm='pa', all_possible_states=None, all_possible_transitions=True,
+  averaging=None, c=None, c1=None, c2=None, calibration_candidates=None,
+  calibration_eta=None, calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=None,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False)]
+[Perceptron(alpha=0.0001, class_weight=None, eta0=1.0, fit_intercept=True,
+      n_iter=5, n_jobs=1, penalty=None, random_state=0, shuffle=True,
+      verbose=0, warm_start=False), PassiveAggressiveClassifier(C=1.0, class_weight=None, fit_intercept=True,
+              loss='hinge', n_iter=5, n_jobs=1, random_state=None,
+              shuffle=True, verbose=0, warm_start=False), SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', n_iter=5, n_jobs=1,
+       penalty='l2', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False), MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')]
+Precision: 0.970160741799
+Recall: 0.973418370948
+F1: 0.971410470414
+Precision (only entities): 0.579550275148
+Recall (only entities): 0.493502331148
+F1 (only entities): 0.527653742347
+['B-LOCATION', 'B-MISC', 'B-ORG', 'B-PERSON', 'I-LOCATION', 'I-MISC', 'I-ORG', 'I-PERSON', 'O']
+Precision by class: [ 0.67779745  0.35178449  0.51268932  0.65519567  0.42629806  0.49789916
+  0.44289044  0.65370183  0.98693366]
+Mean: 0.578354453674
+Recall by class: [ 0.59627063  0.23904997  0.37685573  0.636724    0.3307005   0.19301186
+  0.30705343  0.61146802  0.99403883]
+Mean: 0.476130331155
+F1 by class: [ 0.63438571  0.28346945  0.43363081  0.64546111  0.36916605  0.27763561
+  0.36212277  0.63125169  0.99047302]
+Mean: 0.514177359459
+
